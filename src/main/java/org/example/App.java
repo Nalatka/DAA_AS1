@@ -1,10 +1,6 @@
 package org.example;
 
-/**
- * Main entry point for the Divide-and-Conquer Algorithms project.
- * Provides CLI interface for running algorithms and performance analysis.
- */
-public class Main 
+public class App 
 {
     public static void main( String[] args )
     {

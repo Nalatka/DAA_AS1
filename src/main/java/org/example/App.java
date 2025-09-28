@@ -1,13 +1,14 @@
 package org.example;
 
 /**
- * Hello world!
- *
+ * Main entry point for the Divide-and-Conquer Algorithms project.
+ * Provides CLI interface for running algorithms and performance analysis.
  */
-public class App 
+public class Main 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println("Divide-and-Conquer Algorithms Project");
+        System.out.println("Use --help for available commands");
     }
 }

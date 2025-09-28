@@ -8,10 +8,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * CSV writer for exporting performance metrics data.
- * Supports writing algorithm results to CSV files for analysis.
- */
 public class CSVWriter {
     private final String filename;
     private final List<String> headers;
@@ -23,9 +19,6 @@ public class CSVWriter {
         this.data = new ArrayList<>();
     }
     
-    /**
-     * Set CSV headers.
-     */
     public void setHeaders(String... headers) {
         this.headers.clear();
         for (String header : headers) {
